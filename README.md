@@ -12,11 +12,22 @@ https://health.data.ny.gov/Health/Hospital-Inpatient-Discharges-SPARCS-De-Identi
 Transform the data
 Export the data into a format suitable for SQL server per requirements
 
+##Running the code
+Step 1 - pull down data with filter Finger Lakes
+Step 2 - put data into data frame
+Step 3 - convert to csv
+.
+.
+.
+Step N - Push to SQL database (for Tableau)
 
 ## Prerequisites
 Install Python (version 3.7+) on your local machine
 
+run pip install -r requirements.txt
+
 pip3 install requests
+pip3 install pandas
 
 ## Getting Started
 - Navigate to where you want your local version of the code to live.
